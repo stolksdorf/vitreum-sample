@@ -1,0 +1,21 @@
+{
+  "name": "vitreumSample",
+  "description": "A sample project for the Vitreum build system",
+  "version": "0.0.0",
+  "scripts": {
+    "postinstall": "gulp prod",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "classnames": "^2.2.0",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "lodash": "^3.10.1",
+    "marked": "^0.3.5",
+    "react": "^0.14.1",
+    "react-dom": "^0.14.1",
+    "vitreum": "^3.0.0"
+  }
+}
